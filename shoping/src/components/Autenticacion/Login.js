@@ -66,30 +66,32 @@ function valorDefecto() {
 const estilo = StyleSheet.create({
     title: {
         alignSelf: 'center',
-        color: 'white',
+        color: 'green',
         fontSize: 25,
         fontWeight: 'bold',
         margin: 20
+        
     },
     textInput: {
         height: 40,
         color: "#fff",
         width: "80%",
         marginBottom: 25,
-        backgroundColor: "#1e3040",
+        backgroundColor: "#fff",
         paddingHorizontal: 20,
         borderRadius: 50,
         fontSize: 15,
         borderWidth: 1,
-        borderColor:"#1e3040"
+        borderColor: 'green'
     },
     irRegistro: {
         flex: 1,
         justifyContent: "flex-end",
-        marginBottom: 50
+        marginBottom: 50,
+        color: 'green'
     },
     link:{
-        color: '#fff',
+        color: 'green',
         fontSize: 15,
         marginTop: 40
     },
