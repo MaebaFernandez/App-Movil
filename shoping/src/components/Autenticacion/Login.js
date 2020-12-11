@@ -1,7 +1,7 @@
 import React, {Fragment, useState} from 'react';
 import {StyleSheet, Text, View, TextInput, TouchableOpacity, Button} from "react-native";
 import { validarCorreo } from '../utils/validaciones';
-import firebase from '../utils/firebase';
+import firebase from '../../utils/firebase';
 
 export default function LoginForm(props) {
     const {cambiosForm} = props;

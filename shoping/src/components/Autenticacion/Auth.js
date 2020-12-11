@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {Image, View, StyleSheet} from 'react-native';
-import LoginForm from './LoginForm';
-import RegistroForm from './RegistroForm';
+import LoginForm from './Login';
+import RegistroForm from './Register';
 
 export default function Auth() {
     const [isLogin, setIsLogin] = useState(true);
@@ -11,7 +11,7 @@ export default function Auth() {
     return (
         <>
             <View style={estilo.vista}>
-                <Image style={estilo.logo} source={require('../assets/img/logo.jpg')}/>
+                <Image style={estilo.logo} source={require('../../assets/img/logo.jpg')}/>
                 {isLogin ? <LoginForm cambiosForm={cambiosForm}/> : <RegistroForm cambiosForm={cambiosForm}/>}
             </View>
         </>
