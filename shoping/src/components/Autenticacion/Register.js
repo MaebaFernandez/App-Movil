@@ -92,7 +92,7 @@ const estilo = StyleSheet.create({
     },
   textInput:{
     height: 40,
-    color: "#fff",
+    color: "green",
     width: "80%",
     marginBottom: 25,
     backgroundColor: "#fff",
