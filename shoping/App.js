@@ -24,7 +24,7 @@ export default function App() {
 }
 const estilo = StyleSheet.create({
   fondo:{
-    backgroundColor: "#15212b",
+    backgroundColor: "#fff",
     height: "100%"
   }
 })
